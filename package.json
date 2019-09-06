@@ -1,8 +1,9 @@
 {
   "name": "react-client-dimensions",
   "version": "1.0.0",
+  "description": "A custom react hook that provides you with the window/client dimensions (viewport width and height) in real-time (responsive to resizing).",
   "main": "index.js",
-  "repository": "https://github.com/ashwanth1109/react-client-dimensions",
-  "author": "Ashwanth A R",
+  "repository": "https://github.com/ashwanth1109/react-client-dimensions.git",
+  "author": "Ashwanth A R <ashwanth1109@gmail.com>",
   "license": "MIT"
 }
