@@ -7,3 +7,7 @@
 ### 1.0.2 [7th September, 2019] FEATURE
 
 - Added source code for useClientDimensions() hook
+
+### 1.0.3 [7th September, 2019] MAINTAINENCE
+
+- Added examples directory and how-to-use section to README.
