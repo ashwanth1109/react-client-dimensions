@@ -1,6 +1,6 @@
 {
   "name": "react-client-dimensions",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A custom react hook that provides you with the window/client dimensions",
   "main": "lib/index.js",
   "repository": "https://github.com/ashwanth1109/react-client-dimensions.git",
