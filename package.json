@@ -9,9 +9,7 @@
   "files": [
     "/lib"
   ],
-  "dependencies": {
-    "react": "^16.9.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@babel/cli": "^7.6.0",
     "@babel/core": "^7.6.0",
@@ -25,5 +23,8 @@
     "presets": [
       "@babel/preset-env"
     ]
+  },
+  "peerDependencies": {
+    "react": "^16.9.0"
   }
 }

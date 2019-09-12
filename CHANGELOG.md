@@ -11,3 +11,7 @@
 ### 1.0.3 [7th September, 2019] MAINTAINENCE
 
 - Added examples directory and how-to-use section to README.
+
+### 1.0.4 [13th September, 2019] CRITICAL BUG FIX
+
+- Changed react to be a peer dependancy to fix issues of react version mismatch in projects
