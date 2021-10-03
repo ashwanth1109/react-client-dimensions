@@ -1,0 +1,12 @@
+.idea
+node_modules
+dist
+.github
+
+*.js
+*.md
+index.html
+tsconfig.json
+.prettierrc.json
+package.json
+package-lock.json
