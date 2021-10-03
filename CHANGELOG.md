@@ -15,3 +15,7 @@
 ### 1.0.4 [13th September, 2019] CRITICAL BUG FIX
 
 - Changed react to be a peer dependancy to fix issues of react version mismatch in projects
+
+### 1.1.0 [10th October, 2021] CRITICAL BUG FIX
+
+- Removed react from list of peer dependencies
