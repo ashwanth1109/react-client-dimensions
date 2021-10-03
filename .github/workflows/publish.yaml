@@ -2,7 +2,7 @@ name: Publish Node Package
 on:
   push:
     branches:
-      - master
+      - github-publish-action
 jobs:
   build:
     runs-on: ubuntu-latest
