@@ -6,7 +6,7 @@ export const useClientDimensions = () => {
       // isBrowser check is for systems like gatsby which do server side rendering during build
       typeof window === undefined // isBrowser check
         ? { vw: 0, vh: 0 }
-        : { vw: window.innerWidth, vh: window.innerHeight },
+        : { vw: window?.innerWidth, vh: window?.innerHeight },
     []
   );
   const [dimensions, setDimensions] = useState(getClientDimensions());
