@@ -6,7 +6,9 @@ export const useClientDimensions = () => {
   const getClientDimensions = useCallback(
     () =>
       // isBrowser check is for systems like gatsby which do server side rendering during build
-      isBrowser() && { vw: window?.innerWidth, vh: window?.innerHeight }, // isBrowser check
+      isBrowser()
+        ? { vw: window?.innerWidth, vh: window?.innerHeight }
+        : { vw: 0, vh: 0 }, // isBrowser check
     []
   );
   const [dimensions, setDimensions] = useState(getClientDimensions());
