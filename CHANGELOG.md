@@ -16,8 +16,14 @@
 
 - Changed react to be a peer dependancy to fix issues of react version mismatch in projects
 
-### 2.0.0-RC [3rd October, 2019] REVAMP
+### 2.0.0-RC [3rd October, 2021] REVAMP
 
 - Revamp to use TSDX for improved package maintainence
 
+### 2.0.1-RC [3rd October, 2021] DOCS
 
+- Update package import cost details
+
+### 2.0.2-RC [3rd October, 2021] FEAT
+
+- Add support for SSR build systems
